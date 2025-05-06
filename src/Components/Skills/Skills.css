@@ -1,0 +1,56 @@
+.skill{
+    font-family: Outfit;
+    font-size: x-large;
+    font-weight: bold;
+}
+.skill span{
+    color: navy;
+}
+.flexcontainerforpop{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    gap: 0px;
+}
+.flexcontainerforpop div{
+    flex-basis: 25%;
+    flex-grow:1;
+    width: 120px;
+    height: 100px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.flexcontainerforpop div img{
+    width: 120px;
+    height: 100px;
+}
+.flexedu{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 20px;
+    padding: 30px;
+    justify-content: space-evenly;
+    font-family: Outfit;
+}
+.flexedu h4 {
+    color: navy;
+}
+.flexedu h3{
+    color: navy;
+    font-size: medium;
+}
+.flexedu div{
+    flex-basis: 23.3%;
+    
+}
+@media(max-width:420px){
+    .flexcontainerforpop div{
+        flex-basis:40%;
+    }
+    .flexedu div{
+        flex-basis:100%;
+        
+    }
+}

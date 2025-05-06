@@ -1,0 +1,46 @@
+.abt{
+    font-family: Outfit;
+    font-size: x-large;
+    font-weight: bold;
+
+}
+.abt span{
+    color: navy;
+}
+.flexabt {
+    display: flex;
+    justify-content: space-between; /* space between left and right */
+    gap: 2rem; /* space between columns */
+    padding: 20px;
+    flex-wrap: wrap; /* makes it responsive */
+  }
+  
+  .flexabt > div {
+    flex: 1; /* equal width */
+    min-width: 300px; /* stack on small screens */
+  }
+  .exp{
+    border-width: 1px;
+    border-style: solid;
+    border-color:lightgrey;
+    transition: 3ms;
+  }
+  .exp span{
+    color:green;
+    font-size: 90px;
+    font-weight: bold;
+  }
+  .exp h2{
+    padding-top:25px;
+  }
+  .exp:hover{
+    border-width: 2px;
+    border-style: solid;
+    border-color:navy;
+    cursor: pointer;
+    transform: scale(1);
+  }
+  .butt{
+    border-radius: 20px;
+  }
+  

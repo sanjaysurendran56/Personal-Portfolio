@@ -1,0 +1,22 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    text-align: center;
+    padding: 50px;
+}
+.name{
+    flex-grow: 1;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+.email{
+    flex-grow: 1;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+.sub{
+    flex-grow: 1;
+}
