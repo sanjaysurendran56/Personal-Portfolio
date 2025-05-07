@@ -1,6 +1,8 @@
 import React from 'react'
 import { useNavigate } from 'react-router'
-
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 const Copy = () => {
   const navi=useNavigate();
   const Home=()=>{
@@ -25,14 +27,16 @@ const Contact=()=>{
       Sanjay2025--Build with React-Js
       </td>
       </table>
-      <table className='tabhapc'>
-    <td onClick={()=>Home()}>
-      Home
-    </td>
-    <td onClick={()=>About()}>About me</td>
-    <td onClick={()=>Pro()}>Portfolio</td>
-    <td onClick={()=>Contact()}>Contact</td>
-  </table>
+     <Container>
+      <Row>
+        <Col onClick={()=>Home()}> Home</Col>
+        <Col onClick={()=>About()}>About me</Col>
+      </Row>
+   <Row>
+        <Col onClick={()=>Pro()}>Portfolio</Col>
+        <Col  onClick={()=>Contact()}>Contact</Col>
+      </Row>
+    </Container>
     </>
   )
 }
