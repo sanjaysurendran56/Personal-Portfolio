@@ -86,8 +86,8 @@ blockquote{
       font-family: Outfit;
     }
    .Cont{
-      display: flex;
-      width: 100%;
+      display:flex;
+      width:100%;
       flex-direction:row;
       justify-content: space-evenly;
 /*       margin-left: 20px; */
@@ -101,9 +101,5 @@ blockquote{
       .plan img{
         width: 100%;
       }
-         .tabhapc{
-     font-family: Outfit;
-     cursor: pointer;
-      width:90%
     }
     }
