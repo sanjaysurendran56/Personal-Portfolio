@@ -28,13 +28,13 @@ const Contact=()=>{
       </td>
       </table>
      <Container>
-      <Row className="Cont">
-        <Col onClick={()=>Home()}> Home</Col>
-        <Col onClick={()=>About()}>About me</Col>
+      <Row>
+        <Col onClick={()=>Home()}>Home</Col>
+        <Col  onClick={()=>About()}>About Me</Col>
       </Row>
-   <Row>
+      <Row>
         <Col onClick={()=>Pro()}>Portfolio</Col>
-        <Col  onClick={()=>Contact()}>Contact</Col>
+        <Col onClick={()=>Contact()}>Contact</Col>
       </Row>
     </Container>
     </>
