@@ -98,4 +98,9 @@ blockquote{
       .plan img{
         width: 100%;
       }
+         .tabhapc{
+     font-family: Outfit;
+     cursor: pointer;
+      width:90%
+    }
     }
