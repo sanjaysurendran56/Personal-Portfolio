@@ -28,7 +28,7 @@ const Contact=()=>{
       </td>
       </table>
      <Container>
-      <Row>
+      <Row className="Cont">
         <Col onClick={()=>Home()}> Home</Col>
         <Col onClick={()=>About()}>About me</Col>
       </Row>
