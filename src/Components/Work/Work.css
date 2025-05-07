@@ -90,8 +90,7 @@ blockquote{
       width: 100%;
       flex-direction:row;
       justify-content: space-evenly;
-      background-color: yellow;
-      margin-left: 20px;
+/*       margin-left: 20px; */
     }
   
     @media(max-width:420px){
