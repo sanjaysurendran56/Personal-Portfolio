@@ -38,7 +38,7 @@ const About = () => {
   </div>
 </div>
 <center>
-    <a href='/SanjayDev564.pdf'><Button variant="success" className="butt">Download Resume <FaDownload /></Button></a>
+    <a href='/Sanjay-S_Resume.pdf'><Button variant="success" className="butt">Download Resume <FaDownload /></Button></a>
 </center>
 <Skills/>
     </>
